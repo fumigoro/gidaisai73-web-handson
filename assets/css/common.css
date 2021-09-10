@@ -1,0 +1,26 @@
+body {
+    font-family: "Noto Sans JP";
+}
+
+/* 団体一覧画面での各団体のカード */
+
+.card-link {
+    text-decoration: none;
+    color: black;
+}
+
+/* 各ページのタイトル */
+
+.page-title {
+    font-weight: 700;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+/* 団体一覧画面の画像部分 */
+
+.group-thumbnail {
+    width: min(100%, 250px);
+    height: auto;
+    margin: 0 auto;
+}
