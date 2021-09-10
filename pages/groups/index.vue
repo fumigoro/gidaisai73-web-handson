@@ -18,7 +18,10 @@
                     <h4 class="card-title">
                       {{ group.name }}
                     </h4>
-                    {{ group.description }}
+                    <p>
+                      {{ group.description }}
+                    </p>
+                    <small class="text-muted">ID:{{group.id}}</small>
                   </div>
                 </div>
               </NuxtLink>
