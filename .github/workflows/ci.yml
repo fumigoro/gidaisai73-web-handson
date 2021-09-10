@@ -42,7 +42,3 @@ jobs:
 
       - name: Run linter 👀
         run: npm run lint
-
-      - name: Generate static files
-        run: npm run generate
-
